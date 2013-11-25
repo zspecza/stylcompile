@@ -1,0 +1,41 @@
+normalize()
+
+*, *:before, *:after
+  box-sizing: border-box
+
+html, body
+  height: 100%
+  overflow: hidden
+
+body
+  background: #232323
+
+$clearfix
+  clearfix()
+
+main
+  @extend $clearfix
+  height: 100%
+
+.column
+  float: left
+  width: 50%
+  height: 100%
+  pre
+    height: 100%
+    margin: 0
+    padding: 0
+    display: block
+    color: white
+  .input, code
+    display: block
+    height: 100%
+    width: 100%
+    padding: 2em
+    border: none
+    overflow-y: scroll
+    overflow-x: auto
+    margin: 0
+    resize: none
+    &:focus
+      outline: none

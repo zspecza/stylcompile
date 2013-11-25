@@ -1,0 +1,16 @@
+{
+  "name": "StylCompile",
+  "version": "0.0.0",
+  "authors": [
+    "Declan de Wet <declandewet@me.com>"
+  ],
+  "description": "A web tool to view compiled Stylus output.",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/scripts/lib",
+    "test",
+    "tests"
+  ]
+}

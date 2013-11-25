@@ -1,0 +1,16 @@
+{
+  "name": "StylCompile",
+  "description": "A web tool to view compiled Stylus output.",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "stylus": "~0.40.3",
+    "express": "~3.4.4",
+    "axis-css": "~0.1.7",
+    "autoprefixer-stylus": "0.0.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}

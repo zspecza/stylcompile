@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="UTF-8">
+  <title>StylCompile</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/lib/angular/angular.min.js"></script>
+  <script src="scripts/main.js"></script>
+</head>
+<body>
+  <main ng-controller="MainCtrl">
+    <div class="column">
+      <textarea class="input" wrap="off" autofocus="true" ng-model="stylus" ng-keyup="getData()"></textarea>
+    </div>
+    <div class="column">
+      <pre><code>{{ css }}</code></pre>
+    </div>
+  </main>
+</body>
+</html>
