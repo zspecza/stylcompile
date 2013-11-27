@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 var stylus = require('stylus');
 var path = require('path');
-var axis = require('axis-css');
-var port = process.env.PORT || 3000
+var nib = require('nib');
+var port = process.env.PORT || 3000;
 
 app.configure(function() {
   app.use(express.bodyParser());
@@ -11,14 +11,14 @@ app.configure(function() {
   app.use(stylus.middleware({
     src: __dirname + '/assets',
     compile: function(str, path) {
-      return stylus(str).set('filename', path).use(axis());
+      return stylus(str).set('filename', path).use(nib()).import('nib');
     }
   }));
   app.use(express.static(path.join(__dirname, 'assets')));
   app.use(app.router);
 });
 
-app.get('/', function(req, res) {
+app.get('/*', function(req, res) {
   res.sendfile('index.html');
 });
 
