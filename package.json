@@ -1,7 +1,7 @@
 {
   "name": "StylCompile",
   "description": "A web tool to view compiled Stylus output.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "stylus": "~0.40.3",
