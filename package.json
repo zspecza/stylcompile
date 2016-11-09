@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "stylus": "0.41.x",
-    "express": "~3.4.4",
+    "stylus": "~0.54.5",
+    "express": "~4.14.0",
     "axis-css": "~0.1.7",
-    "autoprefixer-stylus": "0.0.3",
-    "nib": "~1.0.1"
+    "autoprefixer-stylus": "0.11.0",
+    "nib": "~1.1.2"
   },
   "engines": {
     "node": "0.10.x",
