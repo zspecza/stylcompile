@@ -7,7 +7,7 @@
     "stylus": "~0.54.5",
     "express": "~4.14.0",
     "axis-css": "~0.1.7",
-    "autoprefixer-stylus": "0.13.0",
+    "autoprefixer-stylus": "0.14.0",
     "nib": "~1.1.2"
   },
   "engines": {
