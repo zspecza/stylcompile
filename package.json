@@ -6,7 +6,7 @@
   "dependencies": {
     "stylus": "~0.54.5",
     "express": "~4.14.0",
-    "axis-css": "~0.1.7",
+    "axis-css": "~0.1.8",
     "autoprefixer-stylus": "0.13.0",
     "nib": "~1.1.2"
   },
